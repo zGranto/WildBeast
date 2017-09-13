@@ -49,7 +49,7 @@
     "superagent": "^3.5.2",
     "tagscript": "github:guscaplan/tagscript",
     "winston": "^2.3.1",
-    "winston-daily-rotate-file": "^1.0.1",
+    "winston-daily-rotate-file": "^1.6.0",
     "winston-elasticsearch": "^0.5.0",
     "xml2js": "^0.4.16",
     "youtube-api": "^2.0.2",
