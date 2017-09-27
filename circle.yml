@@ -1,0 +1,11 @@
+general:
+  branches:
+    ignore:
+      - gh-pages # Cirlcle pls
+      - wip/eris
+machine:
+  node:
+    version: 6.9.5
+test:
+  override:
+    - standard

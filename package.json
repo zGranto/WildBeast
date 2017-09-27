@@ -1,0 +1,65 @@
+{
+  "private": true,
+  "name": "WildBeast",
+  "version": "5.0.0",
+  "description": "A Discord Bot",
+  "main": "DougBot.js",
+  "maintainers": [
+    {
+      "name": "Anthony Zaza",
+      "email": "tony@lemonmc.com"
+    }
+  ],
+  "scripts": {
+    "prestart": "npm update",
+    "test": "standard & eslint **",
+    "start": "node DougBot.js",
+    "dbcreate": "node runtime/internal/dbcreate.js",
+    "snyk-protect": "snyk protect"
+  },
+  "author": {
+    "name": "Remco Jongschaap",
+    "email": "Hello@dougley.com",
+    "url": "https://dougley.com"
+  },
+  "bugs": {
+    "url": "https://github.com/TheSharks/WildBeast/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSharks/WildBeast.git"
+  },
+  "engines": {
+    "node": "4.x.x - 8.x.x",
+    "npm": ">=3.x.x"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bugsnag": "^1.12.2",
+    "cleverbot.io": "^1.0.4",
+    "eris": "github:abalabahaha/eris#dev",
+    "imgflipper": "^1.0.1",
+    "leetspeak": "0.0.1",
+    "minimist": "^1.2.0",
+    "prompt": "^1.0.0",
+    "require-directory": "^2.1.1",
+    "rethinkdbdash": "^2.3.31",
+    "semver": "^5.4.1",
+    "snyk": "^1.41.1",
+    "superagent": "^3.6.0",
+    "tagscript": "github:guscaplan/tagscript",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.7.2",
+    "winston-elasticsearch": "^0.5.1",
+    "ws": "^3.2.0",
+    "xml2js": "^0.4.19",
+    "youtube-api": "^2.0.9",
+    "youtube-dl": "^1.11.1",
+    "ytdl-core": "^0.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "standard": "^8.1.0"
+  },
+  "snyk": true
+}
